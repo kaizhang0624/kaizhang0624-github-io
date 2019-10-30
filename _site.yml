@@ -1,13 +1,22 @@
-name: "Yay internet!"
+name: "Kai Zhang's website"
 output_dir: "."
 navbar:
   title: "Home"
+  left:
+    - text: "Project"
+      href: project.html
+    - text: "Blog"
+      href: blog.html
+      
+      
   right:
-    - text: "About"
-      href: about.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:<kaz4006@med.cornell.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: http://github.com/kaizhang0624/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/kai-zhang-1a4a93141/
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/KaiZhan59851857
 output:
   html_document
