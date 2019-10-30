@@ -1,0 +1,31 @@
+---
+title: "Kai Zhang's Research Projects"
+---
+
+<br>
+
+#### Learning Analytics
+
+The project uses the latest machine learning and big data methods, such as XGBOOST and tree-based models, to explore the learning data (desensitization) of the Chinese University of Hong Kong (Shenzhen), in order to help to build a smart campus.
+
+Students' WiFi network log is collected and translated into meaningful behavior data (e.g. attendance, time in library and dorm, network packet delivery ratio, time entropy). Machine learning methods, such XGBOOSt algorithm, are used to predict students' GPA change in the semester, so as to alarm students showing sign of significant GPA falling. Decision tree algorithm is used to back-test the prediction model.
+
+<br>
+
+#### Trajectory Network Analysis
+
+The project constructs and visualizes the individual trajectory networks of students at Chinese University of Hong Kong (Shenzhen) from raw WiFi log. This is a foundational project focusing on network modeling, visualization and descriptive analysis, so as to develop subprojects in education and social science, such as friendship discovery, depression discovery, etc.
+
+The trajectory network matrices are computed from campus WiFi network log, with node size data (time spend on the place) on the diagonal and directed edge data (movement freqency between the places) on the others. Nodes (places) are organized and condensed into several major categories including residence, classroom building, library and activity. Additionally, network matrices are visualized using [NetworkX](https://networkx.github.io/) for further observation and pattern discovery.
+
+```{r,out.width= "75%", fig.cap='Trajectory Network of A Sample Student (GPA = 4.00)', fig.align="center", echo=FALSE}
+library(knitr)
+include_graphics("images/network1.png")
+```
+
+```{r,out.width= "75%", fig.cap='Trajectory Network of A Sample Student (GPA = 1.58)', fig.align="center", echo=FALSE}
+library(knitr)
+include_graphics("images/network2.png")
+```
+
+Basic and advanced network metrics are used to describe the networks in a quantitative way, including centrality, transitivity, clustering coefficient, density, time entropy, and entropy on other network metrics.

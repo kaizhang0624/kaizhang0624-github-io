@@ -1,0 +1,15 @@
+---
+title: "Kai Zhang"
+---
+
+```{r, out.width = '25%', fig.align='center', echo = FALSE}
+library(knitr)
+include_graphics("images/kai.jpg")
+```
+
+
+I am a master graduate student in [Weill Cornell Graduate School of Medical Sciences](https://gradschool.weill.cornell.edu) at [Cornell University](https://www.cornell.edu), majoring in Biostatistics and Data Science. I obtained a BS degree with 1st class honor in Statistics from [School of Science and Engineering](https://sse.cuhk.edu.cn/en) at [Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en) in 2019. 
+
+I was an undergraduate research assistant in [Shenzhen Research Institute of Big Data](http://www.sribd.cn/index.php/en) under the supervise of Dr.Jianjun Zhou and [Dr.Jianmin Jia](https://myweb.cuhk.edu.cn/jmjia), participating in two projects in Learning Analytics and Trajectory Network Analysis. My current interest is application of data mining and statistical modeling methods in health care related field.
+
+My full resume is available [here](files/Kai_resume.pdf)
