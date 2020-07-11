@@ -1,5 +1,5 @@
 ---
-title: "Kai Zhang"
+title: "Kai Zhang (张凯)"
 ---
 
 ```{r, out.width = '25%', fig.align='center', echo = FALSE}
@@ -10,6 +10,10 @@ include_graphics("images/kai.jpg")
 
 I am a master graduate student in [Weill Cornell Graduate School of Medical Sciences](https://gradschool.weill.cornell.edu) at [Cornell University](https://www.cornell.edu), majoring in Biostatistics and Data Science. I obtained a BS degree with 1st class honor in Statistics from [School of Science and Engineering](https://sse.cuhk.edu.cn/en) at [Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en) in 2019. 
 
-I was an undergraduate research assistant in [Shenzhen Research Institute of Big Data](http://www.sribd.cn/index.php/en) under the supervise of Dr.Jianjun Zhou and [Dr.Jianmin Jia](https://myweb.cuhk.edu.cn/jmjia), participating in two projects in Learning Analytics and Trajectory Network Analysis. My current interest is application of data mining and statistical modeling methods in health care related field.
+I am Graduate Research Assistant in [Division of Biostatistics](https://phs.weill.cornell.edu/research-collaboration/our-divisions/biostatistics), [Weill Cornell Medicine](https://weill.cornell.edu/). I am working on two research projects simultaneously, under supervision of [Prof.Xi Kathy Zhou](http://vivo.med.cornell.edu/display/cwid-kaz2004) and [Prof.Arindam RoyChoudhury](http://vivo.med.cornell.edu/display/cwid-arr2014). One is focused on Single-cell RNA sequencing (scRNA-seq) data analysis on mouse retinal pigment epithelia (RPE) and applies machine learning methods (Clustering) to identify subtype of PRE cells. The other one uses statistical methods (Baron and Kenny's procedue based on Proportional Odds model) to provide evidence of mediation relationship among components of frailty. In 2018.09-2019.06, I was a Data Analyst (Intern) in [Shenzhen Research Institute of Big Data](http://www.sribd.cn/index.php/en) under the supervision of Dr.Jianjun Zhou and [Dr.Jianmin Jia](https://myweb.cuhk.edu.cn/jmjia), participating in two projects in Learning Analytics and Trajectory Network Analysis. In 2018.07-2018.09, I took an internship at [Changjiang Serurity.Co](https://www.95579.com/), serving a role of Credit Risk Analyst in Department of Risk Management in headquarter. My main work there was developing credit risk scorecards based on Logistics Regression model.
 
-My full resume is available [here](files/Kai_resume.pdf)
+I am a graduating student with rich experience with data, whether clinical, behavioral or financial. With four years in college and one year in graduate school, I have been trained to be a statistician, with both applied analytical skills and theoretical depths. I have a good knowledge of various statistical methods, including Generalized Linear Model, Survival Analysis, Casual Inference and Time Series. I am also skilled with various machine learning algorithms, including supervised learning (Logistics Regression, SVM, Random Forest, XGBoost, Neural Network, etc) and unsupervised learning (PCA, Kmeans, DBSCAN, SNN Graph-based Clustering, etc).   
+
+Besides, I am a sports enthusiast, especially for basketball and soccer. I am big fan of Lebron James and Arsenal.
+
+I am currently seeking for full-time or intern data analyst/data scientist position starting at September 2020. My full resume is available here. [(English Version)](files/Resume-KaiZhang-ChineseVersion.pdf) [(Chinese Version)](files/Resume-KaiZhang-ChineseVersion.pdf).

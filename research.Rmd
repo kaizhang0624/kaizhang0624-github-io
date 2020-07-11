@@ -1,18 +1,24 @@
 ---
-title: "Kai Zhang's Research Projects"
+title: "Kai Zhang's Projects"
 ---
 
 <br>
 
-#### Learning Analytics
+### Learning Analytics
 
 The project uses the latest machine learning and big data methods, such as XGBOOST and tree-based models, to explore the learning data (desensitization) of the Chinese University of Hong Kong (Shenzhen), in order to help to build a smart campus.
 
-Students' WiFi network log is collected and translated into meaningful behavior data (e.g. attendance, time in library and dorm, network packet delivery ratio, time entropy). Machine learning methods, such XGBOOSt algorithm, are used to predict students' GPA change in the semester, so as to alarm students showing sign of significant GPA falling. Decision tree algorithm is used to back-test the prediction model.
+Students' WiFi network log is collected and translated into meaningful behavior data (e.g. attendance, time in library and dorm, network packet delivery ratio, time entropy). State-of-the-art Machine learning methods, such as XGBoost, are used to predict students' GPA change in the semester, so as to alarm students showing sign of significant GPA falling. Also, decision tree algorithm is used to back-test the prediction model, allowing us to further optimize our dataset and model. The final model achieves overall accuracy 96.3% and sensitivity 81.8%.
+
+This project is one of subprojects of __Smart School Project__ granted by Shenzhen Research Institute of Big Data (SRIBD). __Individualization (personalization)__ is common goal in industry 4.0, and we aim to make it come true in education.
+
+<p style="font-family: times, serif; font-size:11pt">
+    Why did we use these specific parameters during the calculation of the fingerprints?
+</p>
 
 <br>
 
-#### Trajectory Network Analysis
+### Trajectory Network Analysis
 
 The project constructs and visualizes the individual trajectory networks of students at Chinese University of Hong Kong (Shenzhen) from raw WiFi log. This is a foundational project focusing on network modeling, visualization and descriptive analysis, so as to develop subprojects in education and social science, such as friendship discovery, depression discovery, etc.
 
@@ -29,3 +35,35 @@ include_graphics("images/network2.png")
 ```
 
 Basic and advanced network metrics are used to describe the networks in a quantitative way, including centrality, transitivity, clustering coefficient, density, time entropy, and entropy on other network metrics.
+
+This project is one of subprojects of __Smart School Project__ granted by Shenzhen Research Institute of Big Data (SRIBD).
+
+<br>
+
+### Diagnosis of Heart Disease Using Generalized Linear Model
+
+Cardiovascular disease are the top 1 cause of death in adults in the United States. This project explored the applicability of Generalized Linear Model (GLM) in cardiovascular disease diagnosis, either in term of the presence or the severity. The dataset used is the compiled version of _Heart Disease_ dataset in UCI Machine Learning Repository.
+
+Three GLMs were used to diagnose heart disease, based on the paitients' age, sex, chest pain type, fasting blood pressure, and heart rate, etc. Logistic regression with backards selection was used to diagnose the presence of narrowing vessel, while Proportional Odds model and Partial Proportion Odds model were applied to predict on the severity of the heart disease. It was concluded that heart disease can be well-predicted by logistic regression and Partial Proportional Odds Model.
+
+The poster can be viewed [here](files/Biostats_Final_Poster.pdf).
+
+```{r,out.width= "100%", fig.cap='Poster of Heart Disease Diagnosis By GLM', fig.align="center", echo=FALSE}
+library(knitr)
+include_graphics("images/bio2_poster.png")
+```
+
+<br>
+
+### An Interactive Web Apps For A Beef Company's Sales Data
+
+This project is to make an interactive Web App for the client [Happy Valley Meat (HVG) Company](https://shop.happyvalleymeat.com/?fbclid=IwAR05ImjSw7cvdcuDSgnD_b_Ku5nxVAIyJ1HZuOtF2oO_CrGgORNQl4s4LtQ), using R `Shiny` package. This apps is supposed to provide relevant information in an interactive and understandable way, so as to assist customers to choose right products when making a purchase. the customers of HVM can input the weight and cuts of meat that they are interested in when making a purchase.
+
+The Web App I developed has four sections - __Beef Cut__, __Transaction__, __Nutrition__, and __About__. The __Beef Cut__ section is to display the environmental impact made by each beef cut per unit, so as to show that beef cut with less total weight per cattle generate greater pollutions in term of water usage, CO2 emission, and land use. The __Transaction__ section includes data of customers’ eating choices in restaurants and steakhouses at Year 2018, indicating that multiple beef cuts that required larger number of cattles slaughtered are preferred by customers. The __Nutrition__ section indicates that those environmentally friendly beef cuts (for example, ground beef) include equal or even higher nutritive value than the others. The __About__ section gives brief introduction of the HVM company and the data sources.
+
+The Web App can be visied [here](https://kaizhangcornell.shinyapps.io/data_science_mid_project/).
+
+```{r,out.width= "100%", fig.cap='A Screenshot of the Web App', fig.align="center", echo=FALSE}
+library(knitr)
+include_graphics("images/ShinyApp.png")
+```
