@@ -12,10 +12,6 @@ Students' WiFi network log is collected and translated into meaningful behavior 
 
 This project is one of subprojects of __Smart School Project__ granted by Shenzhen Research Institute of Big Data (SRIBD). __Individualization (personalization)__ is common goal in industry 4.0, and we aim to make it come true in education.
 
-<p style="font-family: times, serif; font-size:11pt">
-    Why did we use these specific parameters during the calculation of the fingerprints?
-</p>
-
 <br>
 
 ### Trajectory Network Analysis
