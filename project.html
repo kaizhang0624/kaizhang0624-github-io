@@ -11,7 +11,7 @@
 
 
 
-<title>Kai Zhang (张凯)</title>
+<title>Kai Zhang’s Projects</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -317,16 +317,64 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Kai Zhang (张凯)</h1>
+<h1 class="title toc-ignore">Kai Zhang’s Projects</h1>
 
 </div>
 
 
-<p><img src="images/life_photo.jpg" width="60%" style="display: block; margin: auto;" /></p>
-<p>I am a master graduate student in <a href="https://gradschool.weill.cornell.edu">Weill Cornell Graduate School of Medical Sciences</a> at <a href="https://www.cornell.edu">Cornell University</a>, majoring in Biostatistics and Data Science. I obtained a BS degree with 1st class honor in Statistics from <a href="https://sse.cuhk.edu.cn/en">School of Science and Engineering</a> at <a href="https://www.cuhk.edu.cn/en">Chinese University of Hong Kong, Shenzhen</a> in 2019.</p>
-<p>I am Graduate Research Assistant in <a href="https://phs.weill.cornell.edu/research-collaboration/our-divisions/biostatistics">Division of Biostatistics</a>, <a href="https://weill.cornell.edu/">Weill Cornell Medicine</a>. I am working on two research projects simultaneously, under supervision of <a href="http://vivo.med.cornell.edu/display/cwid-kaz2004">Prof.Xi Kathy Zhou</a> and <a href="http://vivo.med.cornell.edu/display/cwid-arr2014">Prof.Arindam RoyChoudhury</a>. One is focused on Single-cell RNA sequencing (scRNA-seq) data analysis on mouse retinal pigment epithelia (RPE) and applies machine learning methods (Clustering) to identify subtype of PRE cells. The other one uses statistical methods (Baron and Kenny’s procedue based on Proportional Odds model) to provide evidence of mediation relationship among components of frailty. In 2018.09-2019.06, I was a Data Analyst (Intern) in <a href="http://www.sribd.cn/index.php/en">Shenzhen Research Institute of Big Data</a> under the supervision of Dr.Jianjun Zhou and <a href="https://myweb.cuhk.edu.cn/jmjia">Dr.Jianmin Jia</a>, participating in two projects in Learning Analytics and Trajectory Network Analysis. In 2018.07-2018.09, I took an internship at <a href="https://www.95579.com/">Changjiang Serurity.Co</a>, serving a role of Credit Risk Analyst in Department of Risk Management in headquarter. My main work there was developing credit risk scorecards based on Logistics Regression model.</p>
-<p>Besides, I am a sports enthusiast, especially for basketball and soccer. I am big fan of Lebron James and Arsenal.</p>
-<p>I am currently seeking for full-time or intern data analyst/data scientist position starting at September 2020. My full resume is available here. <a href="files/Resume-KaiZhang-EnglishVersion.pdf">(English Version)</a> <a href="files/Resume-KaiZhang-ChineseVersion.pdf">(Chinese Version)</a>.</p>
+<p><br></p>
+<div id="learning-analytics" class="section level3">
+<h3>Learning Analytics</h3>
+<p>The project uses the latest machine learning and big data methods, such as XGBOOST and tree-based models, to explore the learning data (desensitization) of the Chinese University of Hong Kong (Shenzhen), in order to help to build a smart campus.</p>
+<p>Students’ WiFi network log is collected and translated into meaningful behavior data (e.g. attendance, time in library and dorm, network packet delivery ratio, time entropy). State-of-the-art Machine learning methods, such as XGBoost, are used to predict students’ GPA change in the semester, so as to alarm students showing sign of significant GPA falling. Also, decision tree algorithm is used to back-test the prediction model, allowing us to further optimize our dataset and model. The final model achieves overall accuracy 96.3% and sensitivity 81.8%.</p>
+<p>This project is one of subprojects of <strong>Smart School Project</strong> granted by Shenzhen Research Institute of Big Data (SRIBD). <strong>Individualization (personalization)</strong> is common goal in industry 4.0, and we aim to make it come true in education.</p>
+<p><br></p>
+</div>
+<div id="trajectory-network-analysis" class="section level3">
+<h3>Trajectory Network Analysis</h3>
+<p>The project constructs and visualizes the individual trajectory networks of students at Chinese University of Hong Kong (Shenzhen) from raw WiFi log. This is a foundational project focusing on network modeling, visualization and descriptive analysis, so as to develop subprojects in education and social science, such as friendship discovery, depression discovery, etc.</p>
+<p>The trajectory network matrices are computed from campus WiFi network log, with node size data (time spend on the place) on the diagonal and directed edge data (movement freqency between the places) on the others. Nodes (places) are organized and condensed into several major categories including residence, classroom building, library and activity. Additionally, network matrices are visualized using <a href="https://networkx.github.io/">NetworkX</a> for further observation and pattern discovery.</p>
+<div class="figure" style="text-align: center">
+<img src="images/network1.png" alt="Trajectory Network of A Sample Student (GPA = 4.00)" width="75%" />
+<p class="caption">
+Trajectory Network of A Sample Student (GPA = 4.00)
+</p>
+</div>
+<div class="figure" style="text-align: center">
+<img src="images/network2.png" alt="Trajectory Network of A Sample Student (GPA = 1.58)" width="75%" />
+<p class="caption">
+Trajectory Network of A Sample Student (GPA = 1.58)
+</p>
+</div>
+<p>Basic and advanced network metrics are used to describe the networks in a quantitative way, including centrality, transitivity, clustering coefficient, density, time entropy, and entropy on other network metrics.</p>
+<p>This project is one of subprojects of <strong>Smart School Project</strong> granted by Shenzhen Research Institute of Big Data (SRIBD).</p>
+<p><br></p>
+</div>
+<div id="diagnosis-of-heart-disease-using-generalized-linear-model" class="section level3">
+<h3>Diagnosis of Heart Disease Using Generalized Linear Model</h3>
+<p>Cardiovascular disease are the top 1 cause of death in adults in the United States. This project explored the applicability of Generalized Linear Model (GLM) in cardiovascular disease diagnosis, either in term of the presence or the severity. The dataset used is the compiled version of <em>Heart Disease</em> dataset in UCI Machine Learning Repository.</p>
+<p>Three GLMs were used to diagnose heart disease, based on the paitients’ age, sex, chest pain type, fasting blood pressure, and heart rate, etc. Logistic regression with backards selection was used to diagnose the presence of narrowing vessel, while Proportional Odds model and Partial Proportion Odds model were applied to predict on the severity of the heart disease. It was concluded that heart disease can be well-predicted by logistic regression and Partial Proportional Odds Model.</p>
+<p>The poster can be viewed <a href="files/Biostats_Final_Poster.pdf">here</a>.</p>
+<div class="figure" style="text-align: center">
+<img src="images/bio2_poster.png" alt="Poster of Heart Disease Diagnosis By GLM" width="100%" />
+<p class="caption">
+Poster of Heart Disease Diagnosis By GLM
+</p>
+</div>
+<p><br></p>
+</div>
+<div id="an-interactive-web-apps-for-a-beef-companys-sales-data" class="section level3">
+<h3>An Interactive Web Apps For A Beef Company’s Sales Data</h3>
+<p>This project is to make an interactive Web App for the client <a href="https://shop.happyvalleymeat.com/?fbclid=IwAR05ImjSw7cvdcuDSgnD_b_Ku5nxVAIyJ1HZuOtF2oO_CrGgORNQl4s4LtQ">Happy Valley Meat (HVG) Company</a>, using R <code>Shiny</code> package. This apps is supposed to provide relevant information in an interactive and understandable way, so as to assist customers to choose right products when making a purchase. the customers of HVM can input the weight and cuts of meat that they are interested in when making a purchase.</p>
+<p>The Web App I developed has four sections - <strong>Beef Cut</strong>, <strong>Transaction</strong>, <strong>Nutrition</strong>, and <strong>About</strong>. The <strong>Beef Cut</strong> section is to display the environmental impact made by each beef cut per unit, so as to show that beef cut with less total weight per cattle generate greater pollutions in term of water usage, CO2 emission, and land use. The <strong>Transaction</strong> section includes data of customers’ eating choices in restaurants and steakhouses at Year 2018, indicating that multiple beef cuts that required larger number of cattles slaughtered are preferred by customers. The <strong>Nutrition</strong> section indicates that those environmentally friendly beef cuts (for example, ground beef) include equal or even higher nutritive value than the others. The <strong>About</strong> section gives brief introduction of the HVM company and the data sources.</p>
+<p>The Web App can be visied <a href="https://kaizhangcornell.shinyapps.io/data_science_mid_project/">here</a>.</p>
+<div class="figure" style="text-align: center">
+<img src="images/ShinyApp.png" alt="A Screenshot of the Web App" width="100%" />
+<p class="caption">
+A Screenshot of the Web App
+</p>
+</div>
+</div>
 
 
 
