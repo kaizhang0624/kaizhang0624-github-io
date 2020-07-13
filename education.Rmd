@@ -2,6 +2,11 @@
 title: "My Journey of Learning Statistics"
 ---
 
+```{r, out.width = '100%', fig.align='center', echo = FALSE}
+library(knitr)
+include_graphics("images/timeline.jpg")
+```
+
 ### Education Backgraond
 
 ___Cornell University___, _Sep 2019 - Aug 2020_\
