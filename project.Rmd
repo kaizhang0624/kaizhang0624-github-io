@@ -36,6 +36,21 @@ This project is one of subprojects of __Smart School Project__ granted by Shenzh
 
 <br>
 
+### Mediation Analysis on Components of Frailty
+
+Frailty is common clinical syndrome in older adults who are at increased risk for poor health outcomes. It can be categorized into five components, which are exhaustion, muscle weakness, slowness in walking, physical inactivity, and unintentional weight loss. Previous studies have reported a complex loop mechaism among those components, but none of them provides evidence of mediation between them. Therefore, this project is to provide the evidence of mediation relationship among those compoents of frailty using data from Rancho Bernrdo study.
+
+Racho Bernado study is an observational cohort study includes multiple measurements regarding body composition, strength, and performance in older adults. The dataset consist of measures taken in visit 7 to 10 of the study and 1466 subjects who had at least one measures recorded during these visit time. All the variables are categorized into three levels.
+
+The traditional Baron and Kenny's three-steps method based on proportional odds model is used to compute the direct and indirect effect of the frailty's components. Further, the Sobel's test is used to test whether the mediators' effect/indirect effect is significant.
+
+The poster can be viewed [here](files/capstone_poster.pdf).
+
+```{r,out.width= "100%", fig.cap='Poster of Mediation Relationship between Components of Frailty', fig.align="center", echo=FALSE}
+library(knitr)
+include_graphics("images/capstone_poster.jpg")
+```
+
 ### Diagnosis of Heart Disease Using Generalized Linear Model
 
 Cardiovascular disease are the top 1 cause of death in adults in the United States. This project explored the applicability of Generalized Linear Model (GLM) in cardiovascular disease diagnosis, either in term of the presence or the severity. The dataset used is the compiled version of _Heart Disease_ dataset in UCI Machine Learning Repository.
