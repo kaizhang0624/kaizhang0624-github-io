@@ -61,7 +61,7 @@ The poster can be viewed [here](files/Biostats_Final_Poster.pdf).
 
 ```{r,out.width= "100%", fig.cap='Poster of Heart Disease Diagnosis By GLM', fig.align="center", echo=FALSE}
 library(knitr)
-include_graphics("images/bio2_poster.png")
+include_graphics("images/bio2_poster.jpg")
 ```
 
 <br>
