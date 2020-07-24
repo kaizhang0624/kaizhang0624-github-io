@@ -66,6 +66,31 @@ include_graphics("images/bio2_poster.jpg")
 
 <br>
 
+### Relationship Between Wage and Professions by Causal Inference Machine Learning
+
+Causal inference is a new trend within machine learning used to help bussiness and policy decision makers better understand causes and impacts so they can make better decisions. This project aims to answer whether people's professions determine their wage, rather than a confounding phenomenon resulted from other factors such as race, education level and marital status.
+
+The project supposes to find causal relationship using counterfactual outcome, and a roadmap for causal inference is followed. After building structural causal model and check the identifiability using back-door criterion, average treatment effect (ATE) is estimated by four methods - Simple Substitution Estimation, Inverse Probability Weighted Estimation (IPTW), Augmented Inverse Probability Weighted Estimation (AIPW), and Targted Maximum Likelihood Estimatn. Meanwhile, Super Leaner incorporating multiple machine learning algorithms (e.g., Lasso regression, random forest, xgboost, etc) is used to estimate conditional mean outcome and propensity score, which ensures multiple good property of above estimation (e.g, consistency, asymptotical normality, etc). This method inherits good predictivity of machine learning methods, and also enable to make inference like traditional statistical methods. 
+
+This project finally concludes that people's wage will be higher if they are doing information-class job than that if they are doing industry-class job. The final report can be viewed [here](files/causal_final_report.html).
+
+```{r,out.width= "100%",fig.align="center", echo=FALSE}
+library(knitr)
+include_graphics("images/causal_ate.png")
+```
+
+<br>
+
+### Overview of Robust Regression Methods and Outlier Detection
+
+Ordinary Least Square (OLS) Regression is hailed as the _Best Linear Unbiased Estimator (BLUE)_, under the assumption of linearity, normality, homoskedasticity, and being without outliers. However, data in real world usually fail to meet all the OLS assumptions. Further, OLS regression is volunerable to some violations of assumptions, especially when there is outlier in its predictors. Thus, alternatives to OLS is in need.
+
+This project provides an overview of multiple robust estimation methods for regression, e.g. M-estimation, bounded-influence regression and MM-estimation, etc. We dive into the theoretical depth behind this methods, and evaluate them in term of finite breakdown point and relative efficiency. And also, an application with data simulated for multiple extreme situations (e.g., heavy-tailed error, outliers in predictors and response variables, etc) is provided.
+
+The project report can be viewed [here](files/Robust_Regression.pdf).
+
+<br>
+
 ### An Interactive Web Apps For A Beef Company's Sales Data
 
 This project is to make an interactive Web App for the client [Happy Valley Meat (HVG) Company](https://shop.happyvalleymeat.com/?fbclid=IwAR05ImjSw7cvdcuDSgnD_b_Ku5nxVAIyJ1HZuOtF2oO_CrGgORNQl4s4LtQ), using R `Shiny` package. This apps is supposed to provide relevant information in an interactive and understandable way, so as to assist customers to choose right products when making a purchase. the customers of HVM can input the weight and cuts of meat that they are interested in when making a purchase.

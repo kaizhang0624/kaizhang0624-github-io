@@ -279,9 +279,6 @@ $(document).ready(function () {
 <li>
   <a href="project.html">Project</a>
 </li>
-<li>
-  <a href="blog.html">Blog</a>
-</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -374,6 +371,21 @@ Poster of Mediation Relationship between Components of Frailty
 Poster of Heart Disease Diagnosis By GLM
 </p>
 </div>
+<p><br></p>
+</div>
+<div id="relationship-between-wage-and-professions-by-causal-inference-machine-learning" class="section level3">
+<h3>Relationship Between Wage and Professions by Causal Inference Machine Learning</h3>
+<p>Causal inference is a new trend within machine learning used to help bussiness and policy decision makers better understand causes and impacts so they can make better decisions. This project aims to answer whether people’s professions determine their wage, rather than a confounding phenomenon resulted from other factors such as race, education level and marital status.</p>
+<p>The project supposes to find causal relationship using counterfactual outcome, and a roadmap for causal inference is followed. After building structural causal model and check the identifiability using back-door criterion, average treatment effect (ATE) is estimated by four methods - Simple Substitution Estimation, Inverse Probability Weighted Estimation (IPTW), Augmented Inverse Probability Weighted Estimation (AIPW), and Targted Maximum Likelihood Estimatn. Meanwhile, Super Leaner incorporating multiple machine learning algorithms (e.g., Lasso regression, random forest, xgboost, etc) is used to estimate conditional mean outcome and propensity score, which ensures multiple good property of above estimation (e.g, consistency, asymptotical normality, etc). This method inherits good predictivity of machine learning methods, and also enable to make inference like traditional statistical methods.</p>
+<p>This project finally concludes that people’s wage will be higher if they are doing information-class job than that if they are doing industry-class job. The final report can be viewed <a href="files/causal_final_report.html">here</a>.</p>
+<p><img src="images/causal_ate.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><br></p>
+</div>
+<div id="overview-of-robust-regression-methods-and-outlier-detection" class="section level3">
+<h3>Overview of Robust Regression Methods and Outlier Detection</h3>
+<p>Ordinary Least Square (OLS) Regression is hailed as the <em>Best Linear Unbiased Estimator (BLUE)</em>, under the assumption of linearity, normality, homoskedasticity, and being without outliers. However, data in real world usually fail to meet all the OLS assumptions. Further, OLS regression is volunerable to some violations of assumptions, especially when there is outlier in its predictors. Thus, alternatives to OLS is in need.</p>
+<p>This project provides an overview of multiple robust estimation methods for regression, e.g. M-estimation, bounded-influence regression and MM-estimation, etc. We dive into the theoretical depth behind this methods, and evaluate them in term of finite breakdown point and relative efficiency. And also, an application with data simulated for multiple extreme situations (e.g., heavy-tailed error, outliers in predictors and response variables, etc) is provided.</p>
+<p>The project report can be viewed <a href="files/Robust_Regression.pdf">here</a>.</p>
 <p><br></p>
 </div>
 <div id="an-interactive-web-apps-for-a-beef-companys-sales-data" class="section level3">
