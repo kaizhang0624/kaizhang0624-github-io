@@ -72,7 +72,7 @@ Causal inference is a new trend within machine learning used to help bussiness a
 
 The project supposes to find causal relationship using counterfactual outcome, and a roadmap for causal inference is followed. After building structural causal model and check the identifiability using back-door criterion, average treatment effect (ATE) is estimated by four methods - Simple Substitution Estimation, Inverse Probability Weighted Estimation (IPTW), Augmented Inverse Probability Weighted Estimation (AIPW), and Targted Maximum Likelihood Estimatn. Meanwhile, Super Leaner incorporating multiple machine learning algorithms (e.g., Lasso regression, random forest, xgboost, etc) is used to estimate conditional mean outcome and propensity score, which ensures multiple good property of above estimation (e.g, consistency, asymptotical normality, etc). This method inherits good predictivity of machine learning methods, and also enable to make inference like traditional statistical methods. 
 
-This project finally concludes that people's wage will be higher if they are doing information-class job than that if they are doing industry-class job. The final report can be viewed [here](files/causal_final_report.html).
+This project finally concludes that people's wage will be higher if they are doing information-class job than that if they are doing industry-class job. The final report can be viewed [here](files/causal_final_report.pdf).
 
 ```{r,out.width= "100%",fig.align="center", echo=FALSE}
 library(knitr)
