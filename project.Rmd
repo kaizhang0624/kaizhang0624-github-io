@@ -91,6 +91,15 @@ The project report can be viewed [here](files/Robust_Regression.pdf).
 
 <br>
 
+### Prediction of Intubation Need of COVID+ Inpaitients
+
+This project aims to predict the need of intubation for COVID positive inpatients in New York Presbyterian hospital, using machine learning and deep learning techniques.
+
+The project report can be viewed [here](files/covid_project_report.pdf).
+
+<br>
+
+
 ### An Interactive Web Apps For A Beef Company's Sales Data
 
 This project is to make an interactive Web App for the client [Happy Valley Meat (HVG) Company](https://shop.happyvalleymeat.com/?fbclid=IwAR05ImjSw7cvdcuDSgnD_b_Ku5nxVAIyJ1HZuOtF2oO_CrGgORNQl4s4LtQ), using R `Shiny` package. This apps is supposed to provide relevant information in an interactive and understandable way, so as to assist customers to choose right products when making a purchase. the customers of HVM can input the weight and cuts of meat that they are interested in when making a purchase.
