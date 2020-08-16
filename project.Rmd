@@ -51,19 +51,6 @@ library(knitr)
 include_graphics("images/capstone_poster.jpg")
 ```
 
-### Diagnosis of Heart Disease Using Generalized Linear Model
-
-Cardiovascular disease are the top 1 cause of death in adults in the United States. This project explored the applicability of Generalized Linear Model (GLM) in cardiovascular disease diagnosis, either in term of the presence or the severity. The dataset used is the compiled version of _Heart Disease_ dataset in UCI Machine Learning Repository.
-
-Three GLMs were used to diagnose heart disease, based on the paitients' age, sex, chest pain type, fasting blood pressure, and heart rate, etc. Logistic regression with backards selection was used to diagnose the presence of narrowing vessel, while Proportional Odds model and Partial Proportion Odds model were applied to predict on the severity of the heart disease. It was concluded that heart disease can be well-predicted by logistic regression and Partial Proportional Odds Model.
-
-The poster can be viewed [here](files/Biostats_Final_Poster.pdf).
-
-```{r,out.width= "100%", fig.cap='Poster of Heart Disease Diagnosis By GLM', fig.align="center", echo=FALSE}
-library(knitr)
-include_graphics("images/bio2_poster.jpg")
-```
-
 <br>
 
 ### Relationship Between Wage and Professions by Causal Inference Machine Learning
@@ -81,6 +68,21 @@ include_graphics("images/causal_ate.png")
 
 <br>
 
+### Prediction of Intubation Need of COVID+ Inpaitients
+
+This project aims to predict the need of intubation for COVID positive inpatients in New York Presbyterian hospital, using machine learning and deep learning techniques.
+
+The features were extracted from patients baseline profiles and longitudinal data of vital sign test.
+
+The project report can be viewed [here](files/covid_project_report.pdf).
+
+```{r,out.width= "100%",fig.align="center", echo=FALSE, fig.cap= 'Perfromace evaluation of model on test data'}
+library(knitr)
+include_graphics("images/covid_prediction.png")
+```
+
+<br>
+
 ### Overview of Robust Regression Methods and Outlier Detection
 
 Ordinary Least Square (OLS) Regression is hailed as the _Best Linear Unbiased Estimator (BLUE)_, under the assumption of linearity, normality, homoskedasticity, and being without outliers. However, data in real world usually fail to meet all the OLS assumptions. Further, OLS regression is volunerable to some violations of assumptions, especially when there is outlier in its predictors. Thus, alternatives to OLS is in need.
@@ -89,26 +91,7 @@ This project provides an overview of multiple robust estimation methods for regr
 
 The project report can be viewed [here](files/Robust_Regression.pdf).
 
-<br>
-
-### Prediction of Intubation Need of COVID+ Inpaitients
-
-This project aims to predict the need of intubation for COVID positive inpatients in New York Presbyterian hospital, using machine learning and deep learning techniques.
-
-The project report can be viewed [here](files/covid_project_report.pdf).
-
-<br>
-
-
-### An Interactive Web Apps For A Beef Company's Sales Data
-
-This project is to make an interactive Web App for the client [Happy Valley Meat (HVG) Company](https://shop.happyvalleymeat.com/?fbclid=IwAR05ImjSw7cvdcuDSgnD_b_Ku5nxVAIyJ1HZuOtF2oO_CrGgORNQl4s4LtQ), using R `Shiny` package. This apps is supposed to provide relevant information in an interactive and understandable way, so as to assist customers to choose right products when making a purchase. the customers of HVM can input the weight and cuts of meat that they are interested in when making a purchase.
-
-The Web App I developed has four sections - __Beef Cut__, __Transaction__, __Nutrition__, and __About__. The __Beef Cut__ section is to display the environmental impact made by each beef cut per unit, so as to show that beef cut with less total weight per cattle generate greater pollutions in term of water usage, CO2 emission, and land use. The __Transaction__ section includes data of customers’ eating choices in restaurants and steakhouses at Year 2018, indicating that multiple beef cuts that required larger number of cattles slaughtered are preferred by customers. The __Nutrition__ section indicates that those environmentally friendly beef cuts (for example, ground beef) include equal or even higher nutritive value than the others. The __About__ section gives brief introduction of the HVM company and the data sources.
-
-The Web App can be visied [here](https://kaizhangcornell.shinyapps.io/data_science_mid_project/).
-
-```{r,out.width= "100%", fig.cap='A Screenshot of the Web App', fig.align="center", echo=FALSE}
+```{r,out.width= "100%",fig.align="center", echo=FALSE, fig.cap= 'Perfromace evaluation of robust regression on simulated data (true beta = 3)'}
 library(knitr)
-include_graphics("images/ShinyApp.png")
+include_graphics("images/robust_regression.png")
 ```
