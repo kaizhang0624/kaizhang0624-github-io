@@ -12,7 +12,7 @@ Students' WiFi network log is collected and translated into meaningful behavior 
 
 This project is one of subprojects of __Smart School Project__ granted by Shenzhen Research Institute of Big Data (SRIBD). __Individualization (personalization)__ is common goal in industry 4.0, and we aim to make it come true in education.
 
-```{r,out.width= "75%", fig.cap='Trajectory Network of A Sample Student (GPA = 4.00)', fig.align="center", echo=FALSE}
+```{r,out.width= "75%", fig.align="center", echo=FALSE}
 library(knitr)
 include_graphics("images/learning_analytics_workflow.png")
 ```
