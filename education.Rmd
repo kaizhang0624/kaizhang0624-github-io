@@ -11,11 +11,13 @@ include_graphics("images/timeline.jpg")
 
 ___Cornell University___, _Sep 2019 - Aug 2020_\
 Degree and Major: M.S in Biostatistics and Data Science\
-Selected Courses: Statistical Learning, Survival Analysis, Causal Inference, Pharmaceutic Statistics, Categorical Data Analysis, Hierarchical and Longitudinal Data Analysis, Design and Analysis of Biomedical Studies, Epidemiology, etc.
+Selected Courses: Statistical Learning, Survival Analysis, Causal Inference, Pharmaceutic Statistics, Categorical Data Analysis, Hierarchical and Longitudinal Data Analysis, Design and Analysis of Biomedical Studies, Epidemiology, etc.\
+Awards: Academic Achievements.
 
 ___Chinese University of Hong Kong, Shenzhen___. _Sep 2015 - Aug 2019_\
 Degree and Major: B.S in Statistics Honours, First Class\
-Selected Courses: Statistical Inference, Machine Learning, Data Mining, Data Management, Statistical Software, Regression Analysis, Time Series, Survival Analysis, Stochastic Process, Optimization, Nonparametric Statistics, Survey Sampling, Statistical Topic in Epidemiology, Statistical Models in Financial Market, Financial Data Analysis, Risk Management with Derivatives, Investment Analysis and Portfolio Management, etc.
+Selected Courses: Statistical Inference, Machine Learning, Data Mining, Data Management, Statistical Software, Regression Analysis, Time Series, Survival Analysis, Stochastic Process, Optimization, Nonparametric Statistics, Survey Sampling, Statistical Topic in Epidemiology, Statistical Models in Financial Market, Financial Data Analysis, Risk Management with Derivatives, Investment Analysis and Portfolio Management, etc.\
+Awards: Dean's List, Academaic Scholarship.
 
 __Certificated Online Courses__: Applied Machine Learning in Python (Coursera), Specialization in Deep Learning (Coursera), Deep Learning with Keras (DataCamp), SQL Fundamentals (DataCamp)
 
@@ -29,6 +31,6 @@ __Database Management__: MySQL, PostgreSQL.
 
 <br>
 
-### Self-introduction
+### Self-Introduction
 
 I am a graduating student with rich experience with data, whether clinical, behavioral or financial. With four years in college and one year in graduate school, I have been trained to be a statistician, with both applied analytical skills and theoretical depths. I have a good knowledge of various statistical methods, including Generalized Linear Model, Survival Analysis, Casual Inference and Time Series. I am also skilled with various machine learning algorithms, including supervised learning (Logistics Regression, SVM, Random Forest, XGBoost, Neural Network, etc) and unsupervised learning (PCA, Kmeans, DBSCAN, SNN Graph-based Clustering, etc).  
